@@ -11,6 +11,6 @@
 		<a th:if="${session.SID != null and session.SLEVEL == 1}" th:href="@{/member/loginHistory}">로그인이력조회</a>
 		<a th:if="${session.SID == null}" th:href="@{/member/login}">로그인</a>
 		<a th:unless="${session.SID == null}" th:href="@{/member/logout}">로그아웃</a>
-		
+		<h1>배포일자: 23년07월10일</h1>
 	</div>
 </html>
